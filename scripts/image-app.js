@@ -42,7 +42,7 @@
 
     // Hint! This is where you should post messages to the web worker and
     // receive messages from the web worker.
-    var worker = new Worker("worker.js")
+    var worker = new Worker("scripts/worker.js")
 
 
     worker.postMessage({'imageData': imageData, 'type': type}); // need to pass it imagedata and type
